@@ -27,7 +27,7 @@ const handelClick = () => {
   }
 };
   return (
-    <div className=" space-y-4 p-6 rounded-2xl shadow-md bg-gray-50">
+    <div className=" space-y-4 p-6 rounded-2xl shadow-md bg-gray-100">
       <div className="flex justify-end  pt-3 ">
         {' '}
         <p
