@@ -19,11 +19,14 @@
 
 ## ✨ Key Features
 
-🛒 Duplicate-Protected Cart System
-Smart add-to-cart functionality that prevents duplicate items and ensures a smooth user experience.
-🔔 Instant Toast Feedback
-Users receive real-time success and error notifications for every action using React Toastify.
-🎨 Modern & Responsive Design
-Clean, attractive, and fully responsive UI built with Tailwind CSS and DaisyUI, optimized for all screen sizes.
+1. 🛒 **Duplicate-Protected Cart System**
+   Smart add-to-cart functionality that prevents duplicate items and ensures a smooth user experience.
+
+2. 🔔 **Instant Toast Feedback**
+   Users receive real-time success and error notifications for every action using React Toastify.
+
+3. 🎨 **Modern & Responsive Design**
+   Clean, attractive, and fully responsive UI built with Tailwind CSS and DaisyUI, optimized for all screen sizes.
+
 
 ---
