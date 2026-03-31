@@ -1,22 +1,31 @@
 import React from 'react';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Item = ({ item, setBuyProduct }) => {
   const [isAddToCart, setIsAddToCart] = useState(false);
 
-  const handelClick = () => {
-    setBuyProduct((prev) => {
-      const exists = prev.find((items) => items.id === item.id);
-    toast.success('Wow so easy!');
-      if (exists) {
-        return prev;
-      }
+const handelClick = () => {
+  let isExist = false;
 
-      
-      return [...prev, item];
-    });
+  setBuyProduct((prev) => {
+    const exists = prev.find((items) => items.id === item.id);
+
+    if (exists) {
+      isExist = true;
+      return prev;
+    }
+
+    return [...prev, item];
+  });
+
+  if (isExist) {
+    toast.error('Already added ❌');
+  } else {
+    toast.success('Added to cart ✔');
     setIsAddToCart(true);
-  };
+  }
+};
   return (
     <div className=" space-y-4 p-6 rounded-2xl shadow-md bg-gray-50">
       <div className="flex justify-end  pt-3 ">

@@ -1,14 +1,18 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 export const CartSection = ({ buyProduct, setBuyProduct }) => {
 
   const handelDelete = (product) => {
     const filterData = buyProduct.filter((p) => p.id !== product.id);
     setBuyProduct(filterData);
+     toast.error
+     ('Cart Deleted ✔');
   };
 
   const handelPayment = ()=>{
     setBuyProduct([])
+     toast.success('Payment Successful');
   }
   const totalPrice = buyProduct.reduce(
     (sum, product) => sum + product.price,
