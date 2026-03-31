@@ -2,14 +2,14 @@ import React from 'react';
 
 const Navber = ({ buyProduct }) => {
   return (
-    <div className="shadow-sm">
-      <div className="flex justify-between container mx-auto items-center py-4">
+    <div className="shadow-sm ">
+      <div className="flex justify-between md:container px-4 mx-auto items-center py-4">
         <div className="">
           <a className=" font-bold text-4xl bg-linear-to-r from-[#4F39F6] to-violet-700 bg-clip-text text-transparent ">
             DigiTools
           </a>
         </div>
-        <ul className="flex gap-5 font-semibold text-gray-700">
+        <ul className="md:flex md:gap-5 hidden font-semibold text-gray-700 ">
           <li className="hover:text-gray-950 hover:cursor-pointer">Products</li>
           <li className="hover:text-gray-950 hover:cursor-pointer">Features</li>
           <li className="hover:text-gray-950 hover:cursor-pointer">Pricing</li>
@@ -25,7 +25,7 @@ const Navber = ({ buyProduct }) => {
               role="button"
               className="btn btn-ghost btn-circle"
             >
-              <div className="indicator">
+              <div className="indicator sm:mr-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -53,7 +53,7 @@ const Navber = ({ buyProduct }) => {
               className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow"
             ></div>
           </div>
-          <button className="btn mr-2 ml-2 border-none rounded-full btn-outline text-xl">
+          <button className="btn hidden lg:inline-block mr-2 ml-2 border-none rounded-full btn-outline   text-xl">
             Login
           </button>
           <button className="btn rounded-full bg-linear-to-r from-[#4b37e6] to-violet-400 hover:opacity-90 transition text-white px-7 py-5.5 text-lg">
