@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://img.icons8.com/fluency/48/resume.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Maker",
+    "description": "Build stunning personal portfolios with drag-and-drop tools.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Custom domains", "Responsive design", "SEO optimized"],
+    "icon": "https://img.icons8.com/fluency/48/domain.png"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker",
+    "description": "Track job applications and manage interviews efficiently.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Status updates"
+    ],
+    "icon": "https://img.icons8.com/fluency/48/todo-list.png"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter AI",
+    "description": "Generate personalized cover letters using AI.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": ["AI writing", "Multiple formats", "Quick export"],
+    "icon": "https://img.icons8.com/fluency/48/edit.png"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Kit",
+    "description": "Prepare for interviews with curated questions and answers.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Mock interviews", "Common Q&A", "Expert tips"],
+    "icon": "https://img.icons8.com/fluency/48/microphone.png"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Booster",
+    "description": "Optimize your LinkedIn profile to attract recruiters.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Profile analysis", "Keyword suggestions", "Visibility boost"],
+    "icon": "https://img.icons8.com/fluency/48/linkedin.png"
+  },
+  {
+    "id": 7,
+    "name": "Skill Assessment Tool",
+    "description": "Test and improve your professional skills with quizzes.",
+    "price": 11.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Skill tests", "Progress tracking", "Certificates"],
+    "icon": "https://img.icons8.com/fluency/48/test.png"
+  },
+  {
+    "id": 8,
+    "name": "Freelancer Starter Pack",
+    "description": "Everything you need to start your freelancing journey.",
+    "price": 24.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "best seller",
+    "features": ["Proposal templates", "Client tracker", "Invoice generator"],
+    "icon": "https://img.icons8.com/fluency/48/toolbox.png"
+  },
+  {
+    "id": 9,
+    "name": "AI Career Coach",
+    "description": "Get personalized career advice and roadmap using AI guidance.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Career roadmap", "Skill suggestions", "Goal tracking"],
+    "icon": "https://img.icons8.com/fluency/48/artificial-intelligence.png"
+  }
+]
