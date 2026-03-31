@@ -48,10 +48,10 @@ function App() {
           ></Items>
         </Suspense>
       )}
-      {/* <GetStart></GetStart>
+      <GetStart></GetStart>
       <Pricing></Pricing>
       <WorkFlow></WorkFlow>
-      <FooterSection></FooterSection> */}
+      {/* <FooterSection></FooterSection> */}
     </>
   );
 }

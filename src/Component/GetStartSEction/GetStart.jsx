@@ -8,16 +8,16 @@ import Package from "../../assets/package.png";
 const GetStart = () => {
   return (
     <div className="mt-28 bg-gray-100 pb-24">
-      <div className="text-center mb-12 pt-24 space-y-4">
-        <h3 className="text-6xl font-bold text-gray-700">
+      <div className="text-center mb-12 pt-24 space-y-4 px-3 md:px-0">
+        <h3 className="text-4xl md:text-6xl font-bold text-gray-700">
           Get Started in 3 Steps
         </h3>
-        <p className="text-gray-500 text-xl">
+        <p className="text-gray-500 text-[15px] md:text-xl">
           Start using premium digital tools in minutes, not hours.
         </p>
       </div>
       <div>
-        <div className="flex gap-10 container mx-auto">
+        <div className="flex flex-col md:flex-row px-4 md:px-0 gap-10 container mx-auto">
           <div className="bg-white rounded-2xl p-5 ">
             <div className="flex justify-end">
               <p className="bg-linear-to-r from-[#402cd4] to-violet-600 w-8 h-8 rounded-full flex items-center justify-center text-white font-bold">
