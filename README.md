@@ -1,16 +1,31 @@
-# React + Vite
+# 🚀 DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
 
-Currently, two official plugins are available:
+**DigiTools Platform** is a modern web application built with React that provides users with a collection of useful digital tools in one place. The platform is designed to be fast, user-friendly, and visually appealing, helping users easily access and manage different tools efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ⚙️ Technologies That I Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚛️ React.js
+* 🟨 JavaScript (ES6)
+* 🎨 Tailwind CSS
+* 🌼 DaisyUI
+* 🔔 React Toastify
+* ⭐ Font Awesome
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+1. 🛒 **Smart Add to Cart System**
+   Users can add tools without duplication and get instant success/error toast notifications.
+
+2. 🔔 **Real-time Notification System**
+   Clean and interactive alerts using React Toastify for better user experience.
+
+3. 📱 **Responsive & Modern UI**
+   Fully responsive design using Tailwind CSS and DaisyUI, optimized for all devices.
+
+---
