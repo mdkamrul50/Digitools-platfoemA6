@@ -63,7 +63,7 @@ const Item = ({ item, setBuyProduct }) => {
             : 'bg-linear-to-r from-[#402cd4] to-violet-600'
         }`}
       >
-        {isAddToCart ? 'Added ✔' : 'Buy Now'}
+        {isAddToCart ? 'Added to cart ✔' : 'Buy Now'}
       </button>
     </div>
   );
