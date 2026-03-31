@@ -3,9 +3,9 @@ import React from 'react';
 const Navber = ({ buyProduct }) => {
   return (
     <div className="shadow-sm ">
-      <div className="flex justify-between md:container px-4 mx-auto items-center py-4">
+      <div className="flex justify-between md:container px-3 mx-auto items-center py-4">
         <div className="">
-          <a className=" font-bold text-4xl bg-linear-to-r from-[#4F39F6] to-violet-700 bg-clip-text text-transparent ">
+          <a className=" font-bold text-2xl md:text-4xl bg-linear-to-r from-[#4F39F6] to-violet-700 bg-clip-text text-transparent ">
             DigiTools
           </a>
         </div>
@@ -56,7 +56,7 @@ const Navber = ({ buyProduct }) => {
           <button className="btn hidden lg:inline-block mr-2 ml-2 border-none rounded-full btn-outline   text-xl">
             Login
           </button>
-          <button className="btn rounded-full bg-linear-to-r from-[#4b37e6] to-violet-400 hover:opacity-90 transition text-white px-7 py-5.5 text-lg">
+          <button className="btn rounded-full bg-linear-to-r from-[#4b37e6] to-violet-400 hover:opacity-90 transition text-white px-4 md:px7 py-5.5 text-md md:text-lg">
             Get Start
           </button>
         </div>

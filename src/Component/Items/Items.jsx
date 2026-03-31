@@ -5,7 +5,7 @@ const Items = ({ productsPromises, buyProduct, setBuyProduct }) => {
   const items = use(productsPromises);
   
   return (
-    <div className="grid grid-cols-3 gap-8  container mx-auto mt-10">
+    <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-8  container mx-auto mt-10 px-4 md:px-0">
       {items.map((item) => (
         <Item
           item={item}

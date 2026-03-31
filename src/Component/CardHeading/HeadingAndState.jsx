@@ -6,11 +6,11 @@ import React, { useState } from 'react';
 const HeadingAndState = ({ buyProduct, setTabState }) => {
   return (
     <div>
-      <div className=" container mx-auto flex flex-col justify-center items-center pt-30 space-y-5 pb-1">
-        <h3 className="text-5xl font-bold text-gray-800">
+      <div className=" container mx-auto flex flex-col justify-center items-center pt-20 md:pt-30 space-y-5 pb-1">
+        <h3 className="text-3xl md:text-5xl font-bold text-gray-800 text-center">
           Premium Digital Tools
         </h3>
-        <p className="text-center text-gray-600">
+        <p className="text-center text-gray-600 px-4 md:px-0">
           Choose from our curated collection of premium digital products
           designed <br /> to boost your productivity and creativity.
         </p>

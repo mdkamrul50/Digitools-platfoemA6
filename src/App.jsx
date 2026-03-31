@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <Navber buyProduct={buyProduct}></Navber>
-      {/* <BannerSection></BannerSection>
+      <BannerSection></BannerSection>
       <Stars></Stars>
       <HeadingAndState
         tabState={tabState}
@@ -48,7 +48,7 @@ function App() {
           ></Items>
         </Suspense>
       )}
-      <GetStart></GetStart>
+      {/* <GetStart></GetStart>
       <Pricing></Pricing>
       <WorkFlow></WorkFlow>
       <FooterSection></FooterSection> */}

@@ -16,7 +16,7 @@ export const CartSection = ({ buyProduct, setBuyProduct }) => {
   );
   console.log(buyProduct);
   return (
-    <div className="container mx-auto  shadow-md p-11 rounded-2xl">
+    <div className="container mx-auto  shadow-md p-4 md:p-11 rounded-2xl">
       <h2 className="text-3xl font-bold text-gray-700 pb-6">Your Cart</h2>
       {buyProduct.length === 0 ? (
         <div className="text-center">
@@ -31,16 +31,16 @@ export const CartSection = ({ buyProduct, setBuyProduct }) => {
             return (
               <div
                 key={product.id}
-                className="flex justify-between mb-5 bg-gray-100 items-center p-5 rounded-2xl"
+                className=" flex justify-between mb-5 bg-gray-100 items-center p-2 md:p-5 rounded-2xl"
               >
                 <div className=" flex gap-6">
                   <img
-                    className="shadow-md  p-2 rounded-full h-16"
+                    className="shadow-md  p-2 rounded-full h-12 md:h-16"
                     src={product.icon}
                     alt=""
                   />
                   <div>
-                    <h3 className="text-2xl font-semibold text-gray-800">
+                    <h3 className="text-[15px] md:text-2xl font-semibold text-gray-800">
                       {product.name}
                     </h3>
                     <p className="text-xl font-semibold text-gray-500 pt-2">
@@ -50,7 +50,7 @@ export const CartSection = ({ buyProduct, setBuyProduct }) => {
                 </div>
                 <p
                   onClick={() => handelDelete(product)}
-                  className="btn border-none rounded-2xl font-bold text-red-400 cursor-pointer"
+                  className="btn border-none rounded-2xl font-normal md:font-bold text-red-400 cursor-pointer"
                 >
                   Remove
                 </p>
@@ -64,7 +64,7 @@ export const CartSection = ({ buyProduct, setBuyProduct }) => {
           </div>
           <button
             onClick={handelPayment}
-            className="btn bg-linear-to-r from-[#402cd4] to-violet-600 text-gray-100 font-bold w-full rounded-full py-6 text-xl"
+            className="btn bg-linear-to-r from-[#402cd4] to-violet-600 text-gray-100 font-bold w-full rounded-full py-6 text-[16px] md:text-xl"
           >
             Proceed to Checkout
           </button>
