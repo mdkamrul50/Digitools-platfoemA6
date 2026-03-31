@@ -10,6 +10,7 @@ import Pricing from './Component/Pricing/Pricing';
 import WorkFlow from './Component/WorkFlow/WorkFlow';
 import FooterSection from './Component/FooterSection/FooterSection';
 import { CartSection } from './Component/CartSection/CartSection';
+import { ToastContainer } from 'react-toastify';
 
 const productLoad = async () => {
   const res = await fetch('/products/Products.json');
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <>
+      <ToastContainer />
       <Navber buyProduct={buyProduct}></Navber>
       <BannerSection></BannerSection>
       <Stars></Stars>
@@ -51,7 +53,7 @@ function App() {
       <GetStart></GetStart>
       <Pricing></Pricing>
       <WorkFlow></WorkFlow>
-      {/* <FooterSection></FooterSection> */}
+      <FooterSection></FooterSection>
     </>
   );
 }

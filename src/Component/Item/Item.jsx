@@ -7,7 +7,7 @@ const Item = ({ item, setBuyProduct }) => {
   const handelClick = () => {
     setBuyProduct((prev) => {
       const exists = prev.find((items) => items.id === item.id);
-
+    toast.success('Wow so easy!');
       if (exists) {
         return prev;
       }

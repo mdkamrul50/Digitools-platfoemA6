@@ -3,8 +3,8 @@ import React from 'react'
 const Pricing = () => {
   return (
     <div className="my-32">
-      <div className="text-center space-y-5">
-        <h3 className="text-6xl font-bold text-gray-700">
+      <div className="text-center space-y-5 px-3 md:px-0">
+        <h3 className="text-4xl md:text-6xl font-bold text-gray-700">
           Simple, Transparent Pricing
         </h3>
         <p className="text-gray-500 text-xl pb-8">
@@ -12,7 +12,7 @@ const Pricing = () => {
         </p>
       </div>
       <div
-        className="flex gap-8 container mx-auto
+        className="flex flex-col px-4 md:px-0 md:flex-row gap-8 container mx-auto
       "
       >
         <div className="p-6 rounded-3xl flex-1 bg-gray-100">
